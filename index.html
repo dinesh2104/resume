@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+    <script src="https://use.fontawesome.com/96a51b9459.js"></script>
+
+</head>
+
+<body>
+    <!--navbar-->
+    <nav>
+        <div class="nav-wrapper black">
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#education">EDUCATION</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#internships">INTERNSHIPS</a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#education">EDUCATION</a></li>
+        <li><a href="#skills">SKILLS</a></li>
+        <li><a href="#internships">INTERNSHIPS</a></li>
+    </ul>
+    <!--about content-->
+    <div class="about-me" id="about">
+        <img src="p3.png" class="pic1">
+        <img src="p4.png" class="pic2">
+        <h2 class="about-me-text">I am DINESH KUMAR</h2>
+        <p class="about-me-text2">I am web developer</p>
+
+    </div>
+
+    <!-- Education content -->
+    <div class="education-content" id="education">
+        <div class="row">
+            <div class="col s12 m3 card-style">
+                <div class="card teal darken-1">
+                    <div class="card-content white-text">
+                        <span class="card-title">HIGHER SECONDARY</span>
+                        <p>Shree Sarasswathi Vidhyaah Mandheer</p>
+                        <p>06/2013 – 04/2015</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="https://www.ssvminstitutions.in/">SSVM</a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3 card-style">
+                <div class="card teal darken-1">
+                    <div class="card-content white-text">
+                        <span class="card-title">SENIOR SECONDARY</span>
+                        <p>Maharishi International Residential School</p>
+                        <p>07/2015 – 04/2017</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="http://www.maharishiirschennai.com/home/">MIRS</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col s12 m3 card-style">
+                <div class="card teal darken-1">
+                    <div class="card-content white-text">
+                        <span class="card-title">B-TECH</span>
+                        <p>National Institute of Technology - Puducherry</p>
+                        <p>04/2017 – Present</p>
+
+                    </div>
+                    <div class="card-action">
+                        <a href="http://www.nitpy.ac.in/">NIT-PY</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skills content -->
+    <div class="skills-content" id="skills">
+        <h1 class="skills-header">SKILLS</h1>
+        <div class="carousel tech-stack">
+            <a class="carousel-item" href="#one!"><img src="https://www.stickpng.com/assets/images/5848152fcef1014c0b5e4967.png"></a>
+            <a class="carousel-item" href="#two!"><img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"></a>
+            <a class="carousel-item" href="#three!"><img src="https://seeklogo.com/images/M/materialize-logo-0FCAD8A6F8-seeklogo.com.png"></a>
+            <a class="carousel-item" href="#four!"><img src="https://www.fullstackpython.com/img/logos/scipy.png"></a>
+            <a class="carousel-item" href="#five!"><img src="https://cdn.freebiesupply.com/logos/large/2x/nodejs-1-logo-png-transparent.png"></a>
+            <a class="carousel-item" href="#six!"><img src="https://cdn.freebiesupply.com/logos/large/2x/django-logo-png-transparent.png"></a>
+        </div>
+    </div>
+
+    <!--Footer start-->
+    <footer class="page-footer black">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">CONTACT</h5>
+                    <p class="grey-text text-lighten-4">Ph no:8838846333
+                    </P>
+                    <P class="grey-text text-lighten-4"></P>Email:dineshs@gmail.com
+                    </p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Social Links</h5>
+                    <ul>
+                        <li><a class="white-text" href="https://github.com/DINESHSDK21"><i class="fa fa-github" aria-hidden="true"></i>
+                            GitHub</a></li>
+                        <li><a class="white-text" href="https://www.linkedin.com/in/dinesh-kumar-197a95178/"><i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                            LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2020 Copyright Text
+            </div>
+        </div>
+    </footer>
+    <!--Footer end-->
+
+
+
+    <script>
+        $(document).ready(function() {
+            $('.sidenav').sidenav();
+        });
+        $('.carousel.carousel-slider').carousel({
+            fullWidth: true,
+            indicators: true
+        });
+    </script>
+</body>
+
+</html>

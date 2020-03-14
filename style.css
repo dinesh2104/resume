@@ -1,0 +1,87 @@
+body {
+    font-family: 'Fredoka One', cursive;
+}
+
+a:hover {
+    color: grey;
+}
+
+.about-me {
+    position: relative;
+    height: 100vh;
+    background: url(p2.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.pic1 {
+    position: absolute;
+    bottom: 0;
+    height: 20vw;
+    width: 100%;
+}
+
+.pic2 {
+    position: absolute;
+    bottom: 0;
+    height: 30vh;
+    width: 100%;
+}
+
+.about-me-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30%;
+    color: brown;
+}
+
+.about-me-text2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    color: black;
+    font-size: medium;
+}
+
+
+/* education */
+
+.education-content {
+    position: relative;
+    text-align: center;
+    padding-left: 200px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 33, 9, 1) 100%, rgba(0, 212, 255, 1) 100%);
+}
+
+.card-style {
+    margin: 50px;
+}
+
+
+/* skills content */
+
+.skills-content {
+    position: relative;
+    background-image: linear-gradient(#02244aff, #220b28ff);
+}
+
+.skills-header {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+.tech-stack {
+    position: absolute;
+    left: 50%;
+    margin-top: 30%;
+}
+
+
+/* footer */
+
+.footer-copyright {
+    text-align: center;
+}
